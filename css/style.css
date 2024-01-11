@@ -1,0 +1,319 @@
+h1{
+    color: #f8d996;
+    background-color: rgb(250, 55, 20);
+    font-size: 1.3rem;
+}
+
+header {
+    background-image: url(../img/fondo_patitas.jpg);
+    background-size: 120px;
+    background-repeat: repeat;
+    width: 100%;
+    height: 120px;
+    padding: 0;
+}
+
+.logo{
+    width: 150px;
+}
+
+.navIcono{
+    font-size: 30px;
+}
+
+.listaNav{
+    flex-wrap: nowrap;
+    padding: 0px;
+    flex-direction: row;
+}
+
+.barraTexto{
+    height: 2rem;
+}
+
+.btnBuscar{
+    background-color: #f8d996;
+    border: 2px solid #fab157;
+    color: #111;
+    font-weight: 500;
+}
+
+.btnBuscar:hover{
+    background-color: #fab157;
+    border: 2px solid #f98036;
+}
+
+.btnDrop{
+    background: none;
+    border: none;
+}
+
+/* BODY */
+
+body{
+    background-color: #ffdf5e;
+}
+
+.anuncios{
+    width: 400px;
+    background-color: white;
+    top: 30px;
+    margin: 0 auto;
+    border: 5px solid #fab157;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #fab157;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titulos3{
+    margin: 70px auto 30px auto;
+}
+
+.linkCategoria{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.subTituloCategoria{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.artCategoria{
+    border: 5px solid #f6650a;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 1rem;
+    background-color: #fab157;
+}
+
+.imgCategoria{
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* BODY PERFIL */
+
+.titulos2 {
+    border-radius: 1rem;
+}
+
+.contenedorInicioRegistro, .contenedorRedes{
+    height: 500px;
+    background-color: #f8d996;
+    border: 5px solid #fab157;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px;
+}
+
+.botonIniciar{
+    color: #111;
+    width: 7rem;
+    background-color: #fab157;
+    border: 2px solid #fa9657;
+}
+
+.botonIniciar:hover{
+    background-color: #f38d10;
+    border: 2px solid #f6650a;
+    cursor: pointer;
+}
+
+/* ALIMENTO PERROS */
+
+.titulos4{
+    width: 250px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.contenedorArts{
+    background-color: #f8d996;
+    border: 5px solid #fab157;
+    border-radius: 10px;
+}
+
+.contenedorImgArt{
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.bodyArt{
+    height: 6rem;
+}
+
+.precio{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.btnComprar{
+    color: #111;
+    font-weight: bold;
+    width: 7rem;
+    background-color: #f5e42b;
+    border: 2px solid #ec8e0b;
+    border-radius: 1rem;
+}
+
+.btnComprar:hover{
+    background-color: #63f249;
+    border: 2px solid #06ae0e;
+}
+
+.imgRes{
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* TIENDA */
+
+.contenedorRedes{
+    height: 9rem;
+}
+
+.contenedorContactos{
+    height: 500px;
+}
+
+.contenedorUbi{
+    width: 640px;
+    height: 9rem;
+}
+
+.maps{
+    width: 640px;
+    height: 500px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(250, 55, 20);
+    position: static;
+    bottom: 0px;
+}
+
+footer h4{
+    font-size: 1.3rem;
+    color: #f8d996;
+}
+
+.footerIcon{
+    color: #f8d996;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1200px){
+    .contenedorInicioRegistro, .contenedorContactos{
+        width: 600px;
+    } 
+
+    .titulos2 {
+        width: 600px;
+    }
+
+    .contenedorUbi, .maps{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contenedorInicioRegistro, .contenedorContactos{
+        width: 500px;
+        height: 400px;
+        font-size: 0.8rem;
+        box-shadow: none;
+    } 
+
+    .contenedorRedes, .contenedorUbi{
+        height: 7rem;
+        box-shadow: none;
+    }
+
+    .contenedorUbi, .maps{
+        width: 500px;
+    }
+
+    .titulos2 {
+        width: 500px;
+        font-size: 1.5rem;
+    }
+
+    .barraTexto{
+        height: 1.5rem;
+        top: 1rem;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .textoMedia{
+        font-size: 0.8rem;
+    }
+
+    .titulos4{
+        font-size: 1rem;
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    h1, footer h4{
+        font-size: 0.8rem;
+    }
+
+    .titulos{
+        font-size: 1.5rem;
+    }
+
+    .contenedorInicioRegistro, .contenedorContactos, .maps{
+        width: 340px;
+        height: 260px;
+    } 
+
+    .contenedorRegistro{
+        height: 400px;
+    }
+
+    .titulos2 {
+        width: 320px;
+        font-size: 1rem;
+    }
+
+    .titulos4{
+        font-size: 0.8rem;
+        width: 150px;
+    }
+
+    .miniRed{
+        width: 165px;
+        font-size: 0.8rem !important;
+    }
+
+    .contenedorUbi{
+        width: 340px;
+    }
+
+    .footerIcon{
+        font-size: 20px;
+    }
+}

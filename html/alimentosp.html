@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clifforiss - Alimento de Perros</title>
+    <!-- ICONOS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="d-flex flex-column align-items-center">
+    <h1 class="container-fluid m-0 text-center pb-1">¡Bienvenidos a Clifforiss! - Alimento para Perros</h1>
+    <header class="navbar container-fluid">
+        <div class="container-fluid row p-0 m-0 d-flex justify-content-between contenedorHeader">
+            <div class="p-0 navbar-brand col-xl-3 col-md-3 col-sm-6 col-6 order-xl-1 order-md-1 order-sm-1 order-1 m-0">
+                <a href="../index.html">
+                    <img src="../img/clifforiss_logo.png" alt="Logo Clifforiss" class="ms-4 logo">
+                </a>
+            </div>
+            <form class="p-0 d-flex col-xl-6 col-md-6 col-sm-12 col-12 order-xl-2 order-md-2 order-sm-3 order-3 barraTexto" role="search">
+                <input class="form-control me-2 buscador barraBuscador" type="search" placeholder="Busca alimentos, productos y más..." aria-label="Search">
+                <button class="btn buscador d-flex align-items-center btnBuscar" type="submit">Buscar</button>
+            </form>
+            <nav class="pe-xl-5 pe-2 col-xl-3 col-md-3 col-sm-6 col-6 order-xl-3 order-md-3 order-sm-2 order-2 d-flex justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-xl-end justify-content-around mx-0 px-0 listaNav">
+                    <!-- Perfil -->
+                    <li class="nav-item px-xl-3 px-2">
+                        <a class="nav-link" aria-current="page" href="perfil.html">
+                            <i class="bi bi-person-fill navIcono"></i>
+                        </a>
+                    </li>
+                    <!-- Carro -->
+                    <li class="nav-item px-xl-3 px-2">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-basket3-fill navIcono"></i>
+                        </a>
+                    </li>
+                    <!-- Tienda -->
+                    <li class="nav-item px-xl-3 px-2">
+                        <a class="nav-link" aria-current="page" href="tienda.html">
+                            <i class="bi bi-shop navIcono"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Dropdown -->
+                <div class="btn-group">
+                    <button type="button" class=" btnDrop" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-card-list navIcono ps-xl-2 ps-1"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="perros.html">Sección de Perros</a></li>
+                        <li><a class="dropdown-item" href="alimentosp.html">Perros - Alimentos</a></li>
+                        <li><a class="dropdown-item" href="#">Perros - Farmacia</a></li>
+                        <li><a class="dropdown-item" href="#">Perros - Accesorios</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sección de Gatos</a></li>
+                        <li><a class="dropdown-item" href="#">Gatos - Alimentos</a></li>
+                        <li><a class="dropdown-item" href="#">Gatos - Farmacia</a></li>
+                        <li><a class="dropdown-item" href="#">Gatos - Accesorios</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Exoticos</a></li>
+                        <li><a class="dropdown-item" href="#">Exoticos - Alimentos</a></li>
+                        <li><a class="dropdown-item" href="#">Exoticos - Accesorios</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="d-flex justify-content-center container-fluid mx-2 mt-4">
+        <p class="titulos titulos4 mx-2 d-flex align-items-center justify-content-center botonIniciar">Corriente</p>
+        <p class="titulos titulos4 mx-2 d-flex align-items-center justify-content-center botonIniciar">Premium</p>
+        <p class="titulos titulos4 mx-2 botonIniciar">Super Premium</p>
+    </div>
+    <main class="d-flex justify-content-center flex-wrap container-xl p-3 mx-2 gap-lg-5 gap-4 contenedorArts">
+        <!-- KNINO -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/Knino.jpg" alt="Alimento Knino 25Kg" class="imgRes object-fit-cover">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Knino</p>
+                <h3 class="subTituloCategoria">Knino 25Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$23.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- DOG BUFFET -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/dogBuffet.jpg" alt="Alimento Dog Buffet 25Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Dog Buffet</p>
+                <h3 class="subTituloCategoria">Dog Buffet 25Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$26.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- MASKOCAN -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/maskocan.jpg" alt="Alimento Maskocan 25Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Masko</p>
+                <h3 class="subTituloCategoria">Masko can 25Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$30.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- SABROKAN -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/sabrokan.jpg" alt="Alimento Sabrokan 25Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Sabrokan</p>
+                <h3 class="subTituloCategoria">Sabrokan 25Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$32.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- CACHUPIN -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/cachupin.jpg" alt="Alimento Cachupin 25Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Cachupin</p>
+                <h3 class="subTituloCategoria">Cachupin 25Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$36.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- CHAMPION DOG -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/chDogC.jpg" alt="Alimento Champion Dog Cachorro 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Champion Dog</p>
+                <h3 class="subTituloCategoria">Champion Dog Cachorro 18Kg</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$31.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/chDogARP.jpg" alt="Alimento Champion Dog Adulto Raza Pequeña 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Champion Dog</p>
+                <h3 class="subTituloCategoria">Champion Dog Adulto Raza Pequeña 18Kg</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$31.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/chDogARG.jpg" alt="Alimento Champion Dog Adulto Raza Grande 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Champion Dog</p>
+                <h3 class="subTituloCategoria">Champion Dog Adulto Raza Grande 18Kg</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$31.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- MASTER DOG -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/masterDogC.jpg" alt="Alimento Master Dog Cachorro 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Master Dog</p>
+                <h3 class="subTituloCategoria">Master Dog Cachorro 18Kg</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$33.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/masterDogARP.jpg" alt="Alimento Master Dog Adulto Raza Pequeña 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Master Dog</p>
+                <h3 class="subTituloCategoria">Master Dog Adulto Raza Pequeña 18Kg</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$33.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/masterDogARG.jpg" alt="Alimento Master Dog Adulto Raza Grande 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Master Dog</p>
+                <h3 class="subTituloCategoria">Master Dog Adulto Raza Grande 18Kg y 21Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$32.900 - $35.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- PEDIGREE -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/pedigreeC.jpg" alt="Alimento Pedigree Cachorro 21Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Pedigree</p>
+                <h3 class="subTituloCategoria">Pedigree Cachorro 21Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$52.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/pedigreeARP.jpg" alt="Alimento Pedigree Adulto Raza Pequeña 21Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Pedigree</p>
+                <h3 class="subTituloCategoria">Pedigree Adulto Raza Pequeña 21Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$52.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/pedigreeARG.jpg" alt="Alimento Pedigree Adulto Raza Grande 21Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Pedigree</p>
+                <h3 class="subTituloCategoria">Pedigree Adulto Raza Grande 21Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$47.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- DOG CHOW -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/dogchowC.jpg" alt="Alimento Dog Chow Cachorro 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Dog Chow</p>
+                <h3 class="subTituloCategoria">Dog Chow Cachorro 18Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$49.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/dogchowARP.jpg" alt="Alimento Dog Chow Adulto Raza Pequeña 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Dog Chow</p>
+                <h3 class="subTituloCategoria">Dog Chow Adulto Raza Pequeña 18Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$49.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/dogchowARG.jpg" alt="Alimento Dog Chow Adulto Raza Grande 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Dog Chow</p>
+                <h3 class="subTituloCategoria">Dog Chow Adulto Raza Grande 18Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$46.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- POWER DOG -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/powerdogC.jpg" alt="Alimento Power Dog Cachorro 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Power Dog</p>
+                <h3 class="subTituloCategoria">Power Dog Cachorro 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$21.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/powerdogARP.jpg" alt="Alimento Power Dog Adulto Raza Pequeña 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Power Dog</p>
+                <h3 class="subTituloCategoria">Power Dog Adulto Raza Pequeña 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$21.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/powerdogARG.jpg" alt="Alimento Power Dog Adulto Raza Grande 10Kg y 18Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Power Dog</p>
+                <h3 class="subTituloCategoria">Power Dog Adulto Raza Grande 10Kg. - 18Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$21.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- NOMADE -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/nomadeC.jpg" alt="Alimento Nomade Cachorro 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Nomade</p>
+                <h3 class="subTituloCategoria">Nomade Cachorro 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$21.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/nomadeARP.jpg" alt="Alimento Nomade Adulto Raza Pequeña 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Nomade</p>
+                <h3 class="subTituloCategoria">Nomade Adulto Raza Pequeña 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$21.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/nomadeARG.jpg" alt="Alimento Nomade Adulto Raza Grande 20Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Nomade</p>
+                <h3 class="subTituloCategoria">Nomade Adulto raza Grande 20Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$35.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <!-- FIT FORMULA -->
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/fitC.jpg" alt="Alimento Fit Formula Cachorro 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Fit Formula</p>
+                <h3 class="subTituloCategoria">Fit Formula Cachorro 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$24.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/fitARP.jpg" alt="Alimento Fit Formula Adulto Raza Pequeña 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Fit Formula</p>
+                <h3 class="subTituloCategoria">Fit Formula Adulto Raza Pequeña 10Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$22.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+        <article class="card p-2 artCategoria" style="width: 15rem;">
+            <div class="d-flex flex-column justify-content-center contenedorImgArt">
+                <img src="../img/alimentoP/fitARG.jpg" alt="Alimento Fit Formula Adulto Raza Grande 10Kg" class="imgRes">
+            </div>
+            <div class="card-body fw-medium p-2 bodyArt">
+                <p class="mb-0">Fit Formula</p>
+                <h3 class="subTituloCategoria">Fit Formula Adulto Raza Grande 20Kg.</h3>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h4 class="precio">$39.900</h4>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </article>
+    </main>
+    <!-- FOOTER -->
+    <footer class="d-flex flex-column align-items-center container-fluid mt-5">
+        <div class="container">
+            <ul class="navbar-nav d-flex flex-row justify-content-center">
+                <!-- INSTAGRAM FOOTER -->
+                <li>
+                    <a href="https://www.instagram.com/" class="nav-link" target="_blank">
+                        <i class="bi bi-instagram navIcono footerIcon"></i>
+                    </a>
+                </li>
+                <!-- GMAIL FOOTER -->
+                <li class="mx-5">
+                    <a href="https://www.google.com/intl/es-419/gmail/about/" class="nav-link" target="_blank">
+                        <i class="bi bi-envelope-fill navIcono footerIcon"></i>
+                    </a>
+                </li>
+                <!-- UBICACION FOOTER -->
+                <li>
+                    <a href="https://maps.app.goo.gl/SFmZDSA1ZyeuLJLP8" class="nav-link" target="_blank">
+                        <i class="bi bi-geo-alt-fill navIcono footerIcon"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <h4 class="text-center mb-0 pb-1">Clifforiss.cl 2024 - Todos los derechos reservados.</h4>
+    </footer>
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
